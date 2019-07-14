@@ -1,0 +1,47 @@
+.inner-header-sec {
+    height: 250px;
+    text-align: center;
+    color: #fff;
+    repeat: no-repeat;
+    background-image: url(image/18.png);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.loginsec {
+    color: #f0f0ff;
+    padding-bottom: 60px;
+    text-align: right;
+    color: #fff;
+}
+
+.video {
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    margin: 0px auto;
+}
+
+.ac2 {
+    text-align: center;
+}
+
+.sidebar-left {
+    margin-top: 50px;
+    float: left;
+    width: 14%;
+    padding-left: 5px;
+}
+
+.inner-sidebar-left {
+    background-image: url("image/4.jpg");
+    repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 1200px;
+}
+
+.content-second {
+    width: 61%;
+    float: left;
+}

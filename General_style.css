@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+}
+
+.colorlogin {
+    background: #96a39e
+}
+
+body {
+    color: white;
+    font-size: 30px;
+    font-family: 'Fira Sans';
+    background-image: url("image/6.jpg");
+}
+
+.row:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.row {
+    display: inline-block;
+}
+
+
+/* start commented backslash hack \*/
+
+* html .row {
+    height: 1%;
+}
+
+.row {
+    display: block;
+}
+
+
+/* close commented backslash hack */
+
+.header {
+    margin-bottom: 10px;
+}
+
+.inner-header {
+    height: 450px;
+    background: #3d3c66;
+    text-align: center;
+    color: #fff;
+    repeat: no-repeat;
+    background-image: url(image/18.png);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.content {
+    width: 75%;
+    float: left;
+}
+
+.inner-content {
+    min-height: 1350px;
+    background-image: url("image/4.jpg");
+    repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    margin: 50px 15px 15px 15px;
+    padding: 40px 35px 15px 140px;
+}
+
+.sidebar {
+    margin: 50px 0px 15px 0px;
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+}
+
+.inner-sidebar {
+    background: #0f0f0f;
+    background-image: url("image/4.jpg");
+    repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 800px;
+}
+
+.footer {
+    margin-top: 10px;
+}
+
+.inner-footer {
+    background-color: #2f2f2f;
+    height: 110px;
+}
+
+a {
+    color: #ffffff
+}
+
+h1 {
+    color: #f0f0f0;
+    font-style: italic;
+    font-size: 35px;
+    line-height: 40px;
+    font-family: sans-serif;
+    /*text-transform: uppercase;*/
+}
+
+h2 {
+    color: #f0f0f0;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    width: auto;
+    margin: 66px auto 0px;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: #fffbbb;
+    font-size: 16px;
+    line-height: 17px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+h4 {
+    color: #000;
+    font-size: 16px;
+    padding-left: 50px
+}
+
+.Crdef {
+    color: #000;
+}
+
+.ac {
+    text-align: center;
+}
+
+.border {
+    border: 5px solid #d0d0d0;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin: 12px;
+    margin-bottom: 15px;
+}
+
+.mail {
+    padding: 30px;
+}
+
+.tiny {
+    font-size: 20px;
+}
+
+
+}
+.card {
+    background-color: #fff;
+    height: 200px;
+    vertical-align: top;
+}
+.inner-card {
+    height: 180px;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 10px;
+}
+.card-images {
+    border: 3px solid #fff;
+}
+.card-text {
+    border: 2px solid #d0d0d0;
+    margin-left: 20px;
+    width: 100%;
+    background-color: #2f2f2f;
+    font-size: 25px;
+}
+.images {
+    height: 174px;
+    width: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+.rules {
+    width: 910px;
+    margin: 40px auto 0px;
+}
+.footer {
+    height: 100px;
+    background-color: #2f2f2f;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.logo {
+    width: 148px;
+    height: 38px;
+    background-image: url(https://pp.userapi.com/c852036/v852036538/13ab00/4NBTTqZPpig.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.shadow {
+    box-shadow: 5px 5px 17px #000;
+}
+.login {
+    color: #f0f0ff;
+    height: 10;
+    text-align: right;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.circle:hover {
+    transform: rotate(180deg)scale(14);
+    transition: transform 2.5s;
+}
+.margin-tops {
+    padding: 15px;
+}
+.advertasing {
+    width: 100%;
+    padding: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+.images:hover {
+    transform: scale(1.2);
+    transition: transform 2.5s
+}
+.card-text:hover {
+    font-size: 27px;
+    transition: all 0.35s;
+}
+.ac:hover {
+    color: fff;
+    font-size: 18px;
+}
+.icon:hover {
+    height: 33px;
+    width: 33px;
+    margin-bottom: 12px;
+}
+.sidebar-menu {}
+.sidebar-menu:hover {
+    font-size: 22px;
+}
+.advertasing:hover {
+    transform: scale(1.12);
+    transition: transform 0.75s
+}
+.colorlogin:hover {
+    transform: scale(1.12);
+    transition: transform 0.35s
+}
+
+.latex {
+    @media screen and (min-width: 700px) {
+    .latex p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+    .latex p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+    .latex p {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .latex p {
+        font-size: 14px;
+    }
+}
+}
